@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     
     height: 100vh;
@@ -63,4 +67,24 @@ body {
     transform: scale(1.2);
     background-color: #A9B3D2;
     color: #ffffff;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+        /* border: solid black; */
+    height: 60vh;
+    position: relative;
+    top: 6vh;
+    margin-top: 5px;
+}
+.center img{
+    height: inherit;
+    margin-left: 4px;
+
+}
+.box{
+    position: relative;
+    width: 100%;
+    background-color: #D9D9D9;
+    mix-blend-mode: multiply;
 }
