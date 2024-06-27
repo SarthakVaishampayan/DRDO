@@ -6,7 +6,7 @@
 }
 body {
     
-    height: 100vh;
+    height: 151vh;
     background-image: linear-gradient(to bottom, #363E4A, #286696, #2EACBE);
     
 }
@@ -72,9 +72,9 @@ body {
     display: flex;
     flex-direction: row;
         /* border: solid black; */
-    height: 60vh;
+    height: 65vh;
     position: relative;
-    top: 6vh;
+    top: 7vh;
     margin-top: 5px;
 }
 .center img{
@@ -87,4 +87,46 @@ body {
     width: 100%;
     background-color: #D9D9D9;
     mix-blend-mode: multiply;
+}
+.vission{
+    /* border: solid red; */
+    position: relative;
+    top: 12vh;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 2.1rem ;
+    text-align: center;
+}
+.vission :first-child{
+    font-size: 3rem;
+}
+.vission pre{
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+
+}
+.mission{
+    /* border: solid red; */
+    position: relative;
+    top: 16.5vh;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 2.1rem ;
+    text-align: center;
+}
+.mission :first-child{
+    font-size: 3rem;
+}
+.mission pre{
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    
+}
+.footer{
+    font-family: "Montserrat", sans-serif;
+    color: #dfdfdf;
+    text-align: center;
+    /* border: red solid; */
+    position: relative;
+    top: 19vh;
 }
