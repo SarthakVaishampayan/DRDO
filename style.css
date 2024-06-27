@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600px;
+    
     height: 100vh;
     background-image: linear-gradient(to bottom, #363E4A, #286696, #2EACBE);
     
@@ -28,7 +27,6 @@ body {
 .navbar span{
     margin: 0px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600px;
     color: #fffff0;
     font-size: 1.5rem ;
     padding-left: 3vw;
@@ -54,7 +52,6 @@ body {
 .navbar button p{
     margin: 0px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600px;
     color: #fffff0;
     font-size: 1.5rem ;
   
