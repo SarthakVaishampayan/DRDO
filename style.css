@@ -152,19 +152,54 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
-    top: -3.2vh;
+    top: -28vh;
     left: 4vw;
     width:35vw ;
     justify-content:space-evenly;
+   
 
 }
-.a{
-    position: relative;
+.bar{
+    
+    background-color: #406D95;
+    /* position: relative; */
     /* top: -3.2vh; */
-    height: 5vw;
+    /* height: 15vw; */
     width: 2vw;
     border: solid #fffff0;
 }
+.barA{
+    position: relative;
+    top: 23vh;
+    height: 12vh;
+}
+
+.barB{
+    position: relative;
+    top: 13vh;
+    height: 22vh;
+}
+.barC{
+    position: relative;
+   
+    height: 35vh;
+}
+.barD{
+    position: relative;
+    top: 9vh;
+    height: 26vh;
+}
+.barE{
+    position: relative;
+    top: 4vh;
+    height: 31vh;
+}
+.barF{
+    position: relative;
+    top: 17vh;
+    height: 18vh;
+}
+
 .box{
     position: relative;
     height: inherit;
