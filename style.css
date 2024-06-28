@@ -82,12 +82,55 @@ body {
     margin-left: 4px;
 
 }
+
+.graph{
+    position: absolute;
+    left: 57vw;
+    border: solid red;
+    height:inherit ;
+    width: 41vw;
+}
+.xaxis{
+    position: relative;
+    top: 60vh;
+    left: 4vw;
+    width: 35vw;
+    height: 2px;
+    color: #fffff0;
+    background-color: #fffff0;
+    
+}
+.yaxis{
+    display: flex;
+    flex-direction: row;
+}
+.bars{
+    /* border: solid pink; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -3.2vh;
+    left: 4vw;
+    width:35vw ;
+    justify-content:space-evenly;
+
+}
+.a{
+    position: relative;
+    /* top: -3.2vh; */
+    height: 5vw;
+    width: 2vw;
+    border: solid #fffff0;
+}
 .box{
     position: relative;
+    height: inherit;
     width: 100%;
     background-color: #D9D9D9;
     mix-blend-mode: multiply;
+    /* border: solid black; */
 }
+
 .vission{
     /* border: solid red; */
     position: relative;
