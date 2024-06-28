@@ -28,15 +28,7 @@ body {
     position: relative;
     top: 4vh;
 }
-.navbar span{
-    margin: 0px;
-    font-family: "Montserrat", sans-serif;
-    color: #fffff0;
-    font-size: 1.5rem ;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    align-content: center;
-}
+
 .navbar button{
     display: flex;
     flex-direction: row;    
@@ -59,15 +51,92 @@ body {
   
 }
 .navHover{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 1.5rem ;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    align-content: center;
     border-radius: 15px;
     height: 5vh;
     transition: all 0.3s ease-out;
 }
 .navHover:hover{
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     background-color: #A9B3D2;
     color: #ffffff;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+   
+}
+.dropdown-content{
+    /* border:solid black; */
+    border-radius: 20px;
+    position: absolute;
+    top: 5.2vh;
+    left: -0.2vw;
+    z-index: 10;
+    height: 30vh;
+    width: 14vw;
+    display: none;
+    background-color: #A9B3D2;
+    opacity: 0.9;
+    transition: all 1s ease-in-out;
+}
+.dropdown-content a{
+    position: relative;
+    text-decoration: none;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 1.2rem ;
+    text-align: center;
+    align-content: center;
+    height: inherit;
+    border-radius: 20px;
+}
+.dropdown:hover .dropdown-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #566796;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .center{
     display: flex;
     flex-direction: row;
