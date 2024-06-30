@@ -37,10 +37,20 @@ body {
     font-size: 2rem;
     
 }
+.ic_no{
+    padding: 0px;
+    position: relative;
+    top: 14vh;
+    height: 7vh;
+    width: 15vw;
+    border: solid #fffff0a1 2px;
+    border-radius: 15px;
+    background-color: #ffffff00;
+}
 .password{
     padding: 0px;
     position: relative;
-    top: 15vh;
+    top: 17vh;
     height: 7vh;
     width: 15vw;
     border: solid #fffff0a1 2px;
