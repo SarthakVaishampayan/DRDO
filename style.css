@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
-    
+
     height: 153vh;
     background-image: linear-gradient(to bottom, #363E4A, #286696, #2EACBE);
-    
+
 }
-.header{
+
+.header {
     position: relative;
     top: 3vh;
 }
+
 .header img {
     width: 63.5vw;
     display: block;
     margin: auto;
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -29,9 +33,9 @@ body {
     top: 4vh;
 }
 
-.navbar button{
+.navbar button {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
@@ -41,21 +45,23 @@ body {
     height: 4.15vh;
     background-color: #ffffff00;
     border-radius: 6px;
-    border: solid #fffff0 1px ;
+    border: solid #fffff0 1px;
 }
-.navbar button p{
+
+.navbar button p {
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
-    font-size: 1.1rem ;
-   
-  
+    font-size: 1.1rem;
+
+
 }
-.navHover{
+
+.navHover {
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
-    font-size: 1.3rem ;
+    font-size: 1.3rem;
     padding-left: 3vw;
     padding-right: 3vw;
     align-content: center;
@@ -63,18 +69,21 @@ body {
     height: 5vh;
     transition: all 0.3s ease-out;
 }
-.navHover:hover{
+
+.navHover:hover {
     /* transform: scale(1.2); */
     background-color: #A9B3D2;
     color: #ffffff;
 }
-.dropdown{
+
+.dropdown {
     position: relative;
     display: inline-block;
     transition: all 0.3s ease-in-out;
-   
+
 }
-.dropdown-content{
+
+.dropdown-content {
     /* border:solid black; */
     border-radius: 20px;
     position: absolute;
@@ -88,20 +97,22 @@ body {
     opacity: 0.9;
     transition: all 1s ease-in-out;
 }
-.dropdown-content a{
+
+.dropdown-content a {
     position: relative;
     text-decoration: none;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
-    font-size: 1rem ;
+    font-size: 1rem;
     text-align: center;
     align-content: center;
     height: inherit;
     border-radius: 20px;
 }
-.dropdown:hover .dropdown-content{
-    display:flex;
+
+.dropdown:hover .dropdown-content {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
@@ -109,31 +120,105 @@ body {
 
 .dropdown-content a:hover {
     background-color: #566796;
-    
+
 }
-.center{
+
+.login {
     display: flex;
     flex-direction: row;
-        /* border: solid black; */
+    align-items: center;
+    transition: all 1s ease-in;
+}
+
+.login:hover {
+    scale: 1.1x;
+}
+
+.b-dropdown-content {
+    /* border:solid black; */
+    border-radius: 20px;
+    position: absolute;
+    top: 5.2vh;
+    left: -.2vw;
+    z-index: 10;
+    height: 30vh;
+    width: 11vw;
+    display: none;
+    background-color: #A9B3D2;
+    opacity: 0.9;
+    transition: all 1s ease-in-out;
+}
+
+.b-dropdown-content a {
+    position: relative;
+    text-decoration: none;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 1rem;
+    text-align: center;
+    align-content: center;
+    height: inherit;
+    border-radius: 20px;
+}
+
+.dropdown:hover .b-dropdown-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.b-navHover {
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 1.3rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    align-content: center;
+    border-radius: 15px;
+    height: 5vh;
+    transition: all 0.3s ease-out;
+}
+
+.b-navHover:hover {
+    /* transform: scale(1.2); */
+    /* background-color: #A9B3D2; */
+    color: #ffffff;
+}
+
+.b-dropdown-content a:hover {
+    background-color: #566796;
+
+}
+
+
+.center {
+    display: flex;
+    flex-direction: row;
+    /* border: solid black; */
     height: 65vh;
     position: relative;
     top: 7vh;
     margin-top: 5px;
 }
-.center img{
+
+.center img {
     height: inherit;
     margin-left: 4px;
 
 }
 
-.graph{
+.graph {
     position: absolute;
     left: 57vw;
-    border: solid red;
-    height:inherit ;
+    /* border: solid red; */
+    height: inherit;
     width: 41vw;
 }
-.xaxis{
+
+.xaxis {
     position: relative;
     top: 60vh;
     left: 4vw;
@@ -141,26 +226,29 @@ body {
     height: 2px;
     color: #fffff0;
     background-color: #fffff0;
-    
+
 }
-.yaxis{
+
+.yaxis {
     display: flex;
     flex-direction: row;
 }
-.bars{
+
+.bars {
     /* border: solid pink; */
     display: flex;
     flex-direction: row;
     position: relative;
     top: -28vh;
     left: 4vw;
-    width:35vw ;
-    justify-content:space-evenly;
-   
+    width: 35vw;
+    justify-content: space-evenly;
+
 
 }
-.bar{
-    
+
+.bar {
+
     background-color: #406D95;
     /* position: relative; */
     /* top: -3.2vh; */
@@ -168,39 +256,44 @@ body {
     width: 2vw;
     border: solid #fffff0;
 }
-.barA{
+
+.barA {
     position: relative;
     top: 23vh;
     height: 12vh;
 }
 
-.barB{
+.barB {
     position: relative;
     top: 13vh;
     height: 22vh;
 }
-.barC{
+
+.barC {
     position: relative;
-   
+
     height: 35vh;
 }
-.barD{
+
+.barD {
     position: relative;
     top: 9vh;
     height: 26vh;
 }
-.barE{
+
+.barE {
     position: relative;
     top: 4vh;
     height: 31vh;
 }
-.barF{
+
+.barF {
     position: relative;
     top: 17vh;
     height: 18vh;
 }
 
-.box{
+.box {
     position: relative;
     height: inherit;
     width: 100%;
@@ -209,41 +302,47 @@ body {
     /* border: solid black; */
 }
 
-.vission{
+.vission {
     /* border: solid red; */
     position: relative;
     top: 12vh;
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
-    font-size: 1.5rem ;
+    font-size: 1.5rem;
     text-align: center;
 }
-.vission :first-child{
+
+.vission :first-child {
     font-size: 2.5rem;
 }
-.vission pre{
+
+.vission pre {
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
 
 }
-.mission{
+
+.mission {
     /* border: solid red; */
     position: relative;
     top: 16.5vh;
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
-    font-size: 1.5rem ;
+    font-size: 1.5rem;
     text-align: center;
 }
-.mission :first-child{
+
+.mission :first-child {
     font-size: 2.5rem;
 }
-.mission pre{
+
+.mission pre {
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
-    
+
 }
-.footer{
+
+.footer {
     font-family: "Montserrat", sans-serif;
     color: #dfdfdf;
     text-align: center;
