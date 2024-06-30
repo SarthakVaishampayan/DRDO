@@ -3,11 +3,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    
 }
 
 body {
 
-    height: 153vh;
+    height: 100vh;
     background-image: linear-gradient(to bottom, #363E4A, #286696, #2EACBE);
 
 }
@@ -21,4 +24,46 @@ body {
     width: 63.5vw;
     display: block;
     margin: auto;
+}
+.center{
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+    border-radius:40px ;
+    text-align: center;
+    position: relative;
+    top: 8vh;
+    border: solid #fffff079;
+    font-size: 2rem;
+    
+}
+.password{
+    padding: 0px;
+    position: relative;
+    top: 15vh;
+    height: 7vh;
+    width: 15vw;
+    border: solid #fffff0a1 2px;
+    border-radius: 15px;
+    background-color: #ffffff00;
+}
+.center input::placeholder{
+    text-align: center;
+    color: #fffff0;
+    font-size:1.65rem ;
+    position: relative;
+    left: 1.5vw;
+    top: 0.5vh;
+    height: inherit;
+    background-image: url(assests/password\ logo.png);
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    background-size: 5vh;
+    background-position-x: -0.4vw;
+    
+}
+.center input{
+    border: solid #fffff0a1 2px;
+    color: #fffff0;
+    
 }
