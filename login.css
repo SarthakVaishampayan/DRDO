@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    height: 153vh;
+    background-image: linear-gradient(to bottom, #363E4A, #286696, #2EACBE);
+
+}
+
+.header {
+    position: relative;
+    top: 3vh;
+}
+
+.header img {
+    width: 63.5vw;
+    display: block;
+    margin: auto;
+}
