@@ -3,6 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
 }
 
 body {
@@ -234,6 +236,20 @@ a{
     background-color: #fffff0;
 
 }
+.xText{
+    position: absolute;
+    top: 30vh;
+    left: -3vw;
+    font-size: 1.3rem;
+    rotate: -90deg;
+}
+.yText{
+    position: absolute;
+    top: 61vh;
+    left: 15vw;
+    font-size: 1.2rem;
+    
+}
 
 .yaxis {
     display: flex;
@@ -256,17 +272,14 @@ a{
 .bar {
 
     background-color: #406D95;
-    /* position: relative; */
-    /* top: -3.2vh; */
-    /* height: 15vw; */
     width: 2vw;
     border: solid #fffff0;
 }
 
 .barA {
     position: relative;
-    top: 23vh;
-    height: 12vh;
+    top: 21vh;
+    height: 14vh;
 }
 
 .barB {
@@ -297,6 +310,20 @@ a{
     position: relative;
     top: 17vh;
     height: 18vh;
+}
+.barNUM{
+    position: relative;
+    top: -2.4vh;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.barText{
+    rotate: -90deg;
+    width: 6vw;
+    font-size: 0.7rem;
+    position: relative;
+    /* top: 1.7vh; */
+    right: 2.05vw;
 }
 
 .box {
