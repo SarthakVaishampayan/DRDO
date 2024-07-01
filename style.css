@@ -11,6 +11,12 @@ body {
     background-image: linear-gradient(to bottom, #363E4A, #286696, #2EACBE);
 
 }
+a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 1.36rem;
+}
 
 .header {
     position: relative;
