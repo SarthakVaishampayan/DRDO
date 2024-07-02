@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+}
+
+body {
+
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #363E4A, #286696, #2EACBE);
+
+}
+a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #fffff0;
+    font-size: 1.36rem;
+}
+
+.header {
+    position: relative;
+    top: 3vh;
+}
+
+.header img {
+    width: 63.5vw;
+    display: block;
+    margin: auto;
+}
+.title{
+    text-align: center;
+     position: relative; 
+     top: 5vh;
+      font-weight: 400;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    /* border: solid black; */
+    height: 65vh;
+    position: relative;
+    top: 7vh;
+    margin-top: 5px;
+}
+
+.graph {
+    position: relative;
+    top: -3vh;
+    margin: auto;
+    /* border: solid red; */
+    height: 65vh;
+    
+}
+
+.xaxis {
+    position: relative;
+    top: 60vh;
+    left: 4vw;
+    width: 50vw;
+    height: 2px;
+    color: #fffff0;
+    background-color: #fffff0;
+
+}
+.yaxis {
+    position: relative;
+    /* left: vw; */
+    display: flex;
+    flex-direction: row;
+}
+.xText{
+    position: absolute;
+    top: 30vh;
+    left: -3vw;
+    font-size: 1.3rem;
+    rotate: -90deg;
+}
+.yText{
+    position: absolute;
+    top: 62vh;
+    left: 25vw;
+    font-size: 1.2rem;
+    
+}
+
+
+.bars {
+    /* border: solid pink; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -28vh;
+    left: 4vw;
+    width: 50vw;
+    justify-content: space-evenly;
+
+
+}
+
+.bar {
+
+    background-color: #406D95;
+    width: 2vw;
+    border: solid #fffff0;
+}
+
+.barA {
+    position: relative;
+    top: 21vh;
+    height: 14vh;
+}
+
+.barB {
+    position: relative;
+    top: 13vh;
+    height: 22vh;
+}
+
+.barC {
+    position: relative;
+
+    height: 35vh;
+}
+
+.barD {
+    position: relative;
+    top: 9vh;
+    height: 26vh;
+}
+
+.barE {
+    position: relative;
+    top: 4vh;
+    height: 31vh;
+}
+
+.barF {
+    position: relative;
+    top: 17vh;
+    height: 18vh;
+}
+.barNUM{
+    position: relative;
+    top: -2.4vh;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.barText{
+    rotate: -90deg;
+    width: 6vw;
+    font-size: 0.7rem;
+    position: relative;
+    /* top: 1.7vh; */
+    right: 2.05vw;
+}
