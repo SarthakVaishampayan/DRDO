@@ -1,12 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us
-    </title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <style>
+
+
+    .body {
+      box-sizing: border-box;
+      
+    }
+
+    .center {
+      width: 70%;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: #04aa6d;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .container {
+      border-radius: 5px;
+      padding: 10px;
+      padding-top: 70px;
+    }
+
+    .row {
+      display: flex;
+      /* height: 150vh; */
+    }
+
+    .column1 {
+      display: flex;
+      justify-content: center;
+      float: center;
+      width: 100%;
+      margin-top: 6px;
+      /* padding: 20px; */
+    }
+
+    .column1 img {
+      height: 500px;
+      width: 70%;
+    }
+
+    .column2 {
+      margin: auto;
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width: 600px) {
+      .column2,
+      input[type="submit"] {
+        width: 95%;
+        margin-top: 0;
+      }
+    }
+  </style>
+
+  <body style="height: 100vh;">
+    <div class="header">
+      <img src="assests/Heading.png" alt="" />
+      <hr />
+    </div>
+
+    <div class="navbar">
+      <span>
+        <button>
+          <p>Search</p>
+          <img src="assests/search icon.png" alt="" />
+        </button>
+      </span>
+      <span class="navHover"><a href="#">Lab Home</a></span>
+      <span class="navHover"><a href="Director.html">Director</a></span>
+
+      <div class="dropdown navHover">
+        <span class="">Team</span>
+
+        <div class="dropdown-content">
+          <a href="DRDS.html">DRDS</a>
+          <a href="DRTC.html">DRTC</a>
+          <a href="Admin_and_Allied_Officers.html">Admin and Allied Officers</a>
+          <a href="Admin_and_Allied_Staff.html">Admin and Allied Staff</a>
+          <a href="Ex_Employee.html">Ex-Employee</a>
+          <a href="Others.html">Others</a>
+        </div>
+      </div>
+      <div class="dropdown navHover">
+        <span class="">Other</span>
+
+        <div style="height: 17vh" class="dropdown-content">
+          <a href="Birthdays.html">Birthdays</a>
+          <a href="New_Joinings.html">New Joinings</a>
+          <a href="Retirements.html">Retirements</a>
+        </div>
+      </div>
+
+      <span class="navHover"><a href="Contact_Us.html">Contact Us</a></span>
+
+      <div style="border: solid #fffff0 1px" class="dropdown b-navHover">
+        <div class="login">
+          LOGIN
+          <img
+            style="mix-blend-mode: lighten"
+            src="assests/login logo.png"
+            alt=""
+          />
+        </div>
+
+        <div style="height: 12vh" class="b-dropdown-content">
+          <a href="admin_login.html">ADMIN</a>
+          <a href="user_login.html">USER</a>
+        </div>
+      </div>
+    </div>
+    <hr style="position: relative; top: 5vh" />
+
+    <div class="container">
+      <div style="text-align: center">
+        <h2>Contact Us</h2>
+        
+      </div>
+      <!-- <div class="column1">
+        <img src="assests/building img.png" />
+      </div> -->
+      <div class="row">
+        <div class="column2">
+          <form action="https://api.web3forms.com/submit   "method="POST">
+            <input type="hidden" name="access_key" value="d2d52fd3-a355-410c-959d-27fdccdb0b86">
+            <label for="name">Name</label>
+            <input
+              style="color: black;border-radius: 10px;"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name.."
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              style="color: black;
+              border-radius: 10px;"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your Email Id"
+              required
+            />
+           
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 25vh; color: black;
+              border-radius: 10px;"
+            ></textarea>
+           <button style="border-radius: 5px; height: 20px;width: 80px; background-color: rgb(29, 101, 201);" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
