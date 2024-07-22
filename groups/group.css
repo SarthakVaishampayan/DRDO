@@ -72,5 +72,86 @@ a {
     height: 100px;
     width: 115px;
     margin: 15px 10px;
+}
 
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.moreinfo {
+    position: relative;
+    top: -14vh;
+    left: 9vw;
+    display: inline-block;
+    border-radius: 10px;
+    justify-content:center ;
+    transition: 0.2s all ease-in-out;
+}
+.moreinfo:hover {
+   background-color: #d9d9d9ad;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.moreinfo_content {
+    display: none;
+    top: -1vh;
+    left: 1.5vw;
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    transition: 2s all ease-in-out;
+
+    border-radius: 20px;
+
+    z-index: 1;
+}
+
+.moreinfo_content a {
+    color: #161615;
+    background-color: #d9d9d9ad;
+    border-radius: 20px;
+
+    text-decoration: none;
+    display: block;
+    width: 80px;
+}
+
+.moreinfo_content a:hover {
+    background-color: #d9d9d9;
+}
+
+.moreinfo:hover .moreinfo_content {
+    display: block;
+}
+.name{
+    /* border: solid black 2px; */
+    font-size: 1.1rem;
+    position: relative;
+    height: 80px;
+    width: 180px;
+    top: -14.5vh;
+    left: 8vw;
+    text-align: center;
+}
+.hr{
+    position: relative;
+    top: -12vh;
+}
+.info{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -9vh;
+    gap: -2vw;
+    /* left: 2vw; */
+    text-align: center;
+    font-size: 1.2rem;
+    justify-content: space-around;
+}
+.email{
+    display: flex;
+    position: relative;
+    top: -12vh;
 }
