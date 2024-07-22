@@ -5,6 +5,7 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     color: #fffff0;
+    cursor: pointer;
 }
 
 body {
@@ -70,9 +71,7 @@ a{
     align-items: center;
     transition: all 0.1s ease-in-out;
 }
-.menu a:hover{
-    /* background-color: #09395db6; */
-}
+
 .menu::-webkit-scrollbar{
     display: none;
 }
@@ -106,10 +105,10 @@ a{
     /* border:solid black; */
     border-radius: 20px;
     position: absolute;
-    top: -25.2vh;
-    left: 15.5vw;
+    top: -20.2vh;
+    left: 15.4vw;
     z-index: 10;
-    height: 30vh;
+    height: 25vh;
     width: 15vw;
     display: none;
     background-color: #4F95D0;
