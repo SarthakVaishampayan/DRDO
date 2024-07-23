@@ -84,11 +84,12 @@ a {
     left: 9vw;
     display: inline-block;
     border-radius: 10px;
-    justify-content:center ;
+    justify-content: center;
     transition: 0.2s all ease-in-out;
 }
+
 .moreinfo:hover {
-   background-color: #d9d9d9ad;
+    background-color: #d9d9d9ad;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -125,7 +126,8 @@ a {
 .moreinfo:hover .moreinfo_content {
     display: block;
 }
-.name{
+
+.name {
     /* border: solid black 2px; */
     font-size: 1.1rem;
     position: relative;
@@ -135,11 +137,13 @@ a {
     left: 8vw;
     text-align: center;
 }
-.hr{
+
+.hr {
     position: relative;
     top: -12vh;
 }
-.info{
+
+.info {
     width: 100%;
     display: flex;
     position: relative;
@@ -150,8 +154,76 @@ a {
     font-size: 1.2rem;
     justify-content: space-around;
 }
-.email{
+
+.email {
     display: flex;
     position: relative;
     top: -12vh;
+}
+
+.contact_sheet2 {
+    position: relative;
+
+    margin: auto;
+    left: 10vh;
+    height: 55vh;
+    width: 65%;
+    /* display: flex;
+    flex-direction: column;
+    overflow-y: auto; */
+    border: solid 2px #fffff0;
+    border-radius: 20px;
+
+}
+
+.top {
+    display: flex;
+   /* justify-content: space-evenly; */
+    height: 25vh;
+    width: 100%;
+}
+
+
+.nameTop{
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    left: 3vw;
+    height: 100%;
+    align-content: center;
+}
+.top hr {
+ 
+    height: 17vh;
+    position: relative;
+    top: 4vh;
+    left: 5vw;
+    width: 1.5px;
+   
+    background-color: #fffff0;
+}
+.infoRight{
+    position: relative;
+    left: 10%;
+    width: 35%;
+    height: 100%;
+       display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    top: -2vh;
+    
+}
+.groupTop{
+    /* border: 2px solid black; */
+width: 100%;
+height: 50%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 1.45rem;
+}
+.groupTop text{
+    position: relative;
+    left: 5vw;
+font-size: 1rem;
 }
